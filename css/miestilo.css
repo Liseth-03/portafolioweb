@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: black;
+  font-family: centaur;
+}
+.container{
+	
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto; 
+}
+.header{
+  z-index: 999;
+	padding: 2rem;
+	background-color: black;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+.header a{
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.logo{
+	width: 10%;
+
+}
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+.navigation ul li{
+	display: inline-block;
+}
+
+.navigation ul li a {
+	border-radius: 5px;
+	transition: all 0.4s linear;
+	display: block;
+	padding: 0.5rem 1rem;
+
+}
+.navigation ul li a:hover {
+	background:#7F3BEB;
+}
+
+.main{
+	padding-top: 12rem;
+}
+
+
+
+.opacidad1{
+  margin-top: 10px;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+}
+
+.foto{
+  border-radius: 200px; 
+  padding:0px;
+  width: 32%;
+  height: 300px;
+  position: absolute;
+  margin-left: 750px;
+  margin-top: 60px;
+}
+
+#text{
+  font-size: 500px;
+  font-weight: normal;
+}
+
+img{
+	width: 100%;
+}
+
+	h1, p{
+    color: #ffffff;
+    margin-left:100px;
+    font-size: 50px;
+}
+.text{
+    text-align: center;
+    position: absolute;
+}
+
+p{
+  margin-left: 190px;
+  margin-top: 150px;
+  font-size: 50px;
+}
+.letras2{
+  margin-top: 20px;
+}
+.cuerpo1{
+  height: 400px;
+}
+
+.papabarras{
+  height: 800px;
+  background-color: black ;
+}
+.presentacion{
+  height: 310px;
+  margin-top: 100px;
+  border-radius:20px;
+  background-color:black;
+  margin-left: 5px;
+}
+
+.video1{
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+button{
+  border-color: #1B1464;
+  border-right: 8px solid #111111;
+}
+#videopum{
+  margin-top: 5px;
+  width: 380px;
+  height: 200px;
+}
+.barras1{
+  height: 700px;
+  border-radius: 20px;
+  background-color:black;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+#habilidades1{
+  margin-top:40px;
+  font-size: 30px;
+  text-align: start;
+}
+.barras2{
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color:black;
+  margin-left: 1px;
+}
+.imagen{
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+.engranaje{
+  margin-left: 155px;
+  width: 50px;
+  height: 50px;
+}
+.habilidades{
+  margin-left: 155px;
+  width: 100px;
+  height: 100px;
+}
+
+.hh{
+  margin-top: 6px;
+  margin-left: 3px;
+  font-size: 18px;
+}
+
+#habilidades2{
+  margin-left: 75px;
+  margin-top:40px;
+  font-size: 30px;
+}
+
+.progress{
+  height: 30px;
+  margin-top: 15px;
+  background-color: #1b1464;
+}
+
+.progress-bar{
+  margin-top: 5px;
+  height: 20px;
+  margin-left: 10px;
+  border-radius: 3px;
+  background-color: #7F3BEB;
+}
+
+.cabecerasomi{
+  height: 60px;
+  background-color: #43089E;
+}
+
+#somi{
+  margin-left:550px ;
+  margin-top: 10px;
+  height: 40px;
+}
+
+.cajapapasobremi{
+  height: 450px;
+  background-color: black;
+}
+
+button{
+  width: 140px;
+  background-color: #7F3BEB;
+  color: blanchedalmond;
+  border-radius: 10px;
+}
+
+h1{
+  font-size: 20px;
+}
+h2{
+  font-size: 20px;
+  color: #fff;
+}
+
+
+.negrilla1{
+  margin-left:100px;
+  font-weight:bold;
+}
+.negrilla2{
+  margin-left:20px;
+  font-weight:bold;
+}
+.textos1{
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.libros{
+  margin-left:160px;
+  margin-top: 40px;
+  width: 100px;
+  height: 100px;
+}
+.pasatiempos{
+  margin-top:20px;
+  margin-left:90px;
+  width: 80px;
+  height: 80px;
+}
+.trabajo{
+  margin-top: 45px;
+  margin-left: 100px;
+  width: 90px;
+  height: 80px;
+}
+
+.textos2{
+  margin-top: 80px;
+  margin-left: 460px;
+}
+
+.textos3{
+  position: absolute;
+  margin-top: 50px;
+  background-color:black;
+  margin-left: 530px;
+}
+
+.papaservicios{
+  border-radius:10px;
+  height: 500px;
+  background-color: black;
+}
+
+.servicios1{
+  background-color: #43089E;
+  margin-top: 10px;
+  width: 80px;
+  height: 50px;
+  color: #fff;
+}
+
+#servicios{
+  background-color: #7F3BEB;
+  margin-top: 9px;
+  margin-left: 555px;
+}
+
+.lineaser{
+  border-radius:10px;
+  margin-top: 20px;
+  margin-left: 45px;
+  height:400px;
+  background-color: #43089E;
+}
+
+#camara{
+  margin-left: 60px;
+  margin-top: 30px;
+  width: 70px;
+  height: 50px;
+}
+
+#lapiz{
+  margin-left: 215px;
+  margin-top:30px;
+  height: 80px;
+  width: 60px;
+}
+
+#play{
+  margin-left: 360px;
+  margin-top:15px;
+  height: 80px;
+  width: 50px;
+}
+
+#diseñoweb{
+  margin-left: 55px;
+  margin-top:10px;
+  height: 50px;
+  width: 50px;
+}
+#diseñomarca{
+  margin-left: 200px;
+  margin-top:10px;
+  height: 80px;
+  width: 70px;
+}
+
+
+.btn11{
+  background-color:#7F3BEB;;
+  margin-left: 25px;
+  margin-top: 50px;
+  height: 40px;
+}
+.btn22{
+  background-color:#7F3BEB;;
+  margin-left: 170px;
+  margin-top: 50px;
+  height: 40px;
+}
+
+.btn33{
+  background-color:#7F3BEB;;
+  margin-left: 300px;
+  margin-top: 50px;
+  height: 40px;
+}
+.btn44{
+  background-color:#7F3BEB;;
+  margin-left: 25px;
+  margin-top: 50px;
+  height: 40px;
+}
+.btn55{
+  background-color:#7F3BEB;;
+  margin-left: 170px;
+  margin-top: 50px;
+  height: 40px;
+}
+
+.btn66{
+  background-color:#7F3BEB;;
+  margin-left: 300px;
+  margin-top: 50px;
+  height: 40px;
+}
+
+.btn4{
+  margin-top: 50px;
+  height: 40px;
+}
+
+.manual{
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 400px;
+  margin-left:50px;
+  background-color:#43089E;
+}
+
+#manualdemarca{
+  background-color:#7F3BEB;
+  margin-left: 145px;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+#proyectos{
+  background-color:#7F3BEB;
+  margin-left: 145px;
+  margin-top: 50px;
+}
+
+#recuerdos{
+  background-color:#7F3BEB;
+  margin-left:145px;
+  margin-top: 60px;
+}
+
+.conteportafolio{
+  height: 80px;
+  background-color: #43089E;
+}
+
+.contenedorfolio{
+  background-color: black;
+}
+
+#porta{
+  display: flex;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.porta{
+  margin-top: 5px;
+  margin-left: 500px;
+}
+
+.ima{
+width: 200px;
+height: 200px;
+}
+
+.fotografia1{
+  border-radius: 10px;
+  height: 900px;
+  margin-top: 10px;
+  background-color:#7F3BEB;
+  margin-left: 30px;
+}
+
+.fotografia{
+margin-left: 135px;
+margin-top: 10px;
+height: 50px;
+width: 100px;
+}
+
+.ima{
+  margin-top: 55px;
+  margin-left:40px;
+  width: 300px;
+  height: 200px;
+}
+
+.imag{
+  margin-top: 25px;
+  margin-left: 40px;
+  width: 300px;
+  height: 200px;
+}
+
+.image{
+  margin-top: 25px;
+  margin-left: 40px;
+  width: 300px;
+  height: 200px;
+}
+
+.ilustraciones{
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
+  background-color:#7F3BEB;
+}
+
+
+#botonilu1{
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+#botonani{
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 160px;
+}
+
+.seres{
+  margin-top: 20px;
+  margin-left: 5px;
+  width: 290px;
+  height: 200px;
+}
+
+.fantasma{
+  margin-top: 20px;
+  margin-left: 35px;
+  height: 300px;
+  width: 250px;
+  
+}
+.mula{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 200px;
+  height: 250px;
+}
+
+.animaciones{
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color:#7F3BEB;
+}
+
+#animacion{
+  width: 200px;
+  height: 200px
+}
+
+.visuales{
+  margin-top: 10px;
+  height: 400px;
+  background-color:#7F3BEB;
+}
+
+#visuales1{
+  margin-left: 250px;
+  margin-top: 60px;
+}
+
+#visuales2{
+  margin-left: 250px;
+  margin-top: 60px;
+}
+
+.avisuales{
+  margin-top: 10px;
+  height: 400px;
+  background-color: #7F3BEB;
+}
+
+#videoani2{
+  width: 500px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.marc{
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 100px;
+  height: 200px;
+}
+
+#texto{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 675px;
+}
+
+.redes{
+  margin-left: 300px;
+  height: 300px;
+  background-color: black;
+}
+
+.instagram{
+  margin-top: 20px;
+  margin-left: 400px;
+  width: 50px;
+  height: 50px;
+}
+.whatsapp{
+  margin-left: 400px;
+  margin-top: 10px;
+
+  width: 50px;
+  height: 50px;
+}
+.numeros{
+  margin-top: 35px;
+  position: absolute;
+  margin-left: 450px;
+}
+.facebook{
+  margin-top: 10px;
+  margin-left: 400px;
+  width: 50px;
+  height: 50px;
+}
+.arreglarli, a{
+  list-style: none;
+  text-decoration: none;
+}
+.arreglarla{
+  list-style: none;
+  text-decoration: none;
+}
+
+li a:hover {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
