@@ -453,7 +453,7 @@ font-size: 40px ;
 }
 
 .galeria img{
-  width: 100%;
+  width: 60%;
   vertical-align: top;
   height: 300px;
   object-fit: cover;
@@ -512,7 +512,6 @@ font-size: 40px ;
   text-decoration: none;
   text-align: center;
 }
-
 @media screen and(max-width:400px){
 .galeria{
   grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
@@ -528,7 +527,55 @@ font-size: 40px ;
 background-color: black;
 }
 
+#image11{
+  margin-left: 450px;
+  display: flex;
+  max-width: 30%;
+}
+#image22{
+  margin-left: 350px;
+  display: flex;
+  max-width: 50%;
+}
+#image33{
+  margin-left: 350px;
+  display: flex;
+  max-width: 50%;
+}
+#image44{
+  margin-left: 450px;
+  display: flex;
+  max-width: 30%;
+}
 
+
+#image111{
+  margin-left: 450px;
+  display: flex;
+  max-width: 30%;
+}
+#image222{
+  margin-left: 450px;
+  display: flex;
+  max-width: 30%;
+}
+#image333{
+  margin-left: 450px;
+  display: flex;
+  max-width: 30%;
+}
+
+#image444{
+  margin-left: 450px;
+  display: flex;
+  max-width: 30%;
+}
+
+#image555{
+  margin-left: 450px;
+  display: flex;
+  max-width: 30%;
+}
 
 
 #porta{
@@ -687,9 +734,8 @@ width: 100px;
 }
 
 .instagram{
-  position: absolute;
+  margin-left: 60px;
   margin-top: 20px;
-  margin-left: 200px;
   width: 50px;
   height: 50px;
 }
@@ -707,7 +753,7 @@ width: 100px;
 }
 .facebook{
   margin-top: 10px;
-  margin-left: 400px;
+  margin-left: 300px;
   width: 50px;
   height: 50px;
 }
